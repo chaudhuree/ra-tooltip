@@ -1,0 +1,17 @@
+.tooltip {
+  position: relative;
+  background: palegreen;
+  color: black;
+  visibility: hidden;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: palegreen transparent transparent;
+}
